@@ -1,455 +1,815 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>sqigzsecuq.cfolks.pl</title>
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <span class="header__logo">
-         <a href="https://cyberfolks.pl">
-          <svg
-          enable-background="new 0 0 253 37.7"
-          viewBox="0 0 253 37.7"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="m251.3.2-1 2.7-.6 1.9h-.1l-.6-1.9-1.1-2.7h-1.7v7.3h1.3v-3.2l-.2-2.5h.1l1.7 4.4h1l1.7-4.4h.1l-.2 2.5v3.2h1.3v-7.3zm-12 1.3h2.2v6h1.4v-6h2.2v-1.3h-5.9zm-130.3 8.2c-1.3-.7-2.7-1.1-4.2-1.1-2.7 0-5.4 1.3-7.4 3.7l-.2-3.3h-3.5v20.1h3.7v-12.8c1.7-2.7 3.6-4.4 6.4-4.4 1.4 0 2.8.4 4.1 1zm-98 16.9c-4.1 0-7.3-2.9-7.3-7.4s3.2-7.5 7.3-7.5c2 0 4 .8 5.5 2.2l1.8-2.3c-2.1-1.9-4.7-2.9-7.5-2.9-5.5-.1-10.8 3.9-10.8 10.5s5.3 10.4 10.8 10.5c3 0 5.8-1.1 8-3.1l-1.7-2.4c-1.5 1.3-3.6 2.4-6.1 2.4m45.4-17.9c-2.5 0-4.7 1-6.7 2.9l.1-5v-5.8h-3.7v28.4h3.1l.2-2.2c1.6 1.7 3.8 2.7 6.2 2.7 4.7.1 9-3.9 9-10.8.1-6.2-3.3-10.2-8.2-10.2m-1.3 17.8c-1.5 0-3.4-.5-5.2-2.2v-9.7c2.1-2.3 4.1-2.9 5.7-2.9 3.2 0 5.4 2.6 5.4 7.2-.1 4.8-2.6 7.7-5.9 7.6m-22.7-1.6-6.9-15.8h-4l9.2 19.9-.6 1.7c-1 2.3-2.6 4-5.3 4-.6 0-1.2-.1-1.8-.3l-.8 2.9c.9.3 1.8.4 2.8.4 4.6 0 7-3 8.6-7l8.7-21.6h-3.8zm46.6-16.2c-5.3 0-10 3.9-10 10.5s4.6 10.5 10.8 10.5c2.8 0 5.6-.8 7.9-2.4l-1.4-2.4c-1.8 1.2-3.6 1.9-6 1.9-4.1 0-7.1-2.1-7.6-6.5h15.5c.2-.7.3-1.4.2-2.2.1-5.7-4.1-9.4-9.4-9.4m-6.2 8.7c.6-3.6 3-5.9 6.2-5.9 3.1 0 5.6 2 6 5.9zm136.2.8 7.2-6.8c1.7-1.6-.7-4-2.4-2.3l-10.1 9.6v-16.8c0-1-.8-1.9-1.9-1.9-1 0-1.9.8-1.9 1.9v26c0 1 .8 1.9 1.9 1.9 1 0 1.9-.8 1.9-1.9v-4.6l2.9-2.7 7.9 8.4c1.7 1.8 4.3-.5 2.5-2.3zm-15.4 7.6c-.9 0-1.6.7-3.2.7-2.3 0-3.5-1.5-3.5-4v-20.3c0-.8-.6-1.4-1.4-1.4h-6.4c-.9 0-1.6.7-1.6 1.6 0 .9.7 1.6 1.6 1.6h4.1v18.3c0 4.6 2.4 7.4 6.9 7.4 2.5 0 5.2-.8 5.2-2.4-.2-.8-.9-1.5-1.7-1.5m-39.2-25h-14.5c-.9 0-1.6.7-1.6 1.6v25.4c0 1 .9 1.9 1.9 1.9s1.9-.8 1.9-1.9v-11.6h9.1c.9 0 1.6-.7 1.6-1.6s-.7-1.6-1.6-1.6h-9.1v-9h12.3c.9 0 1.6-.7 1.6-1.6s-.7-1.6-1.6-1.6zm-24.5 31.2h-23.7v3.1h23.7c.9 0 1.6-.7 1.6-1.6 0-.8-.7-1.5-1.6-1.5.1 0 .1 0 0 0m36.8-23.3c-6.4 0-10.4 4.9-10.3 10.5-.1 5.7 3.9 10.5 10.3 10.5 6.3 0 10.1-4.9 10.2-10.5.2-5.6-3.9-10.5-10.2-10.5m0 17.7c-4 0-6.5-3.2-6.5-7.3 0-4 2.5-7.2 6.5-7.2 3.9 0 6.4 3.3 6.4 7.2 0 4.1-2.5 7.3-6.4 7.3m63.9-8.9c-3.6-.8-5.3-1.7-5.3-3.3 0-3.2 6-3 9.4-1 1.9 1.1 3.4-1.3 1.4-2.6-1.7-1.1-4.3-1.9-7.1-1.9-5.2 0-7.3 2.9-7.3 5.6 0 1.9 1.1 4.6 5.1 5.8 3.8 1 7.6 1.3 7.6 3.8 0 1.7-1.8 2.9-4.7 2.9-2.3 0-4.6-.9-6.4-2.3-1.7-1.3-3.9.4-2.1 2.3 1.2 1.4 5 3.1 8.6 3.1 4.4 0 8.1-2.3 8.2-6.2.1-4.3-3.7-5.4-7.4-6.2"
-            fill="#3d403b"
-          />
-        </svg>
-         </a>
-        </span>
-        <div class="header__links">
-          <a href="mailto:wsparcie@cyberfolks.pl"">
-            <span class="link__icon">
-              <img src="https://cyberfolks.pl/wp-content/themes/cyberfolks/landingi/envelope.svg" alt="Napisz do nas" />
-            </span>
-            <span class="link__text">Napisz do nas</span>
-          </a>
-          <a target="_blank" href="https://cyberfolks.pl/#start-chat"">
-            <span class="link__icon">
-              <img src="https://cyberfolks.pl/wp-content/themes/cyberfolks/landingi/livechat.svg" alt="Livechat" />
-            </span>
-            <span class="link__text">Livechat</span>
-          </a>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="światło, Kabała, źródło, Labirynt Fauna, Stoker, święta geometria, dharma">
+    <!-- <meta name="color-scheme" content="light dark"> -->
+    <link rel="shortcut icon" href="img/64tth.ico">
+    <title>Droga do światła</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="droga_do_swiatla.css">
+    <link rel="stylesheet" href="lightbox.min.css">
+
+    <script async src="lightbox-plus-jquery.min.js"></script>
+
+</head>
+
+<!-- STRUKTURA STRONY -->
+
+<body>
+
+    <div class="curtain">
+        <div class="form">
+            <h2>Wprowadź hasło by odblokować</h2>
+            <input type="text" placeholder="Wpisz hasło">
         </div>
-      </div>
-    </header>
-    <section class="section section--landing-hero">
-      <div class="container">
-        <div class="column__content--left">
-          <h1 class="landing-hero__title">
-            Witamy na stronie </br> <span class="yellow">sqigzsecuq.cfolks.pl</span>
-          </h1>
-          <p class="landing-hero__description">
-            Pliki strony www proszę umieścić w katalogu <strong>~/domains/sqigzsecuq.cfolks.pl/public_html</strong> </br>
-Upewnij się również że ten plik (index.html) <strong>został skasowany</strong>.
-          </p>
-          <div class="landing-hero__btn">
-            <span>Masz pytania?</span>
-            <a href="https://cyberfolks.pl/pomoc/" target="_blank" class="btn--yellow">Baza wiedzy</a>
-          </div>
-          <div class="mobile-show">
-            <a href="mailto:wsparcie@cyberfolks.pl">
-              <span class="link__text">Napisz do nas</span>
-            </a>
-            <a target="_blank" href="https://cyberfolks.pl/#start-chat">
-              <span class="link__text">Livechat</span>
-            </a>
-          </div>
+    </div>
+
+    <div class="wrap">
+
+        <div class="switch">
+            <i title="tryb ciemny" class="fa-solid fa-moon"></i>
+            <i title="tryb jasny" class="fa-solid fa-sun"></i>
         </div>
-        <div class="column__content--right">
-          <img
-            src="https://cyberfolks.pl/wp-content/themes/cyberfolks/landingi/image-landing-2.png"
-            alt="Witamy na stronie"
-          />
+
+        <h1>Czy celem elit jest oświecenie ludzkości?</h1>
+
+        <section>
+
+            <nav class="menu">
+                <ul>
+                    <li><a class="symbolism">Symbolika filmów</a></li>
+                    <li><a class="LD_OOBE">LD i OOBE</a></li>
+                    <li><a class="demonology">Demony i Szatan</a></li>
+                    <li><a class="religions">Religie</a></li>
+                </ul>
+            </nav>
+            <div class="content">
+                <div class="prolog">
+                    <p> To co za chwilę przeczytasz będzie odbiegać od Twojej wizji świata, dlatego przed lekturą proszę
+                        o wzięcie kilku głębszych oddechów :)</p>
+
+                    <p> W umysłach ludzi świadomych patrząc na obecną sytuację kreuje się dość mocno naprawdę mroczna
+                        wizja totalitaryzmu i świata z najgorszych koszmarów. Początkowo też tak myślałem, ale kiedy
+                        zacząłem zgłębiać Kabałę, oraz szukać elementów wspólnych światowych religii, a także analizować
+                        wiele dokumentów pokazujących nam plany elit, ułożyło mi się to wszystko w sensowną całość - a
+                        ja stałem się spokojniejszy. </p>
+                    <p> Pomyśl o tym tak - skoro elity planują eksploracje kosmosu, komputery kwantowe, to po co im do
+                        tego ludzie, którzy za cholerę nie rozumieją tych technologii i zużywają tylko cenne zasoby i
+                        surowce planety, z których wiele jest na wyczerpaniu? System finansowy musi upaść, bo wywrócą go
+                        cyfrowe waluty, a demokracja się tutaj nie nada. Nowy świat będzie tworzyć niewielka ilość
+                        ludzi, ale będą to najinteligentniejsi i najlepsi jakościowo, kreatywni, światli ludzie.
+                        Możliwe, że tacy jak ja, czy Ty będziemy mieli spore znaczenie w tym świecie. To tak w sporym
+                        skrócie. </p>
+
+                    <p>Jak wszyscy wiemy Kabała jest filozofią elit, a my jesteśmy nią podświadomie programowani
+                        wszędzie - w książkach, filmach, dziełach itd. Jest to jedna najstarszych nauk na świecie - choć
+                        określenie jej początków jest problematyczne. Jej podstawy świetnie wyjaśniają dwa filmy -
+                        Labirynt Fauna i Stoker. Kabaliści wyjaśniają nam ją często nawiązując do innych religii - <a
+                            target="_blank" class="reference" href="https://www.cda.pl/video/7013443ad"> <span
+                                class="labirynt" title="link do Labiryntu Fauna">Labirynt Fauna</span></a> jest głównie
+                        odwołaniem do chrześcijaństwa, a <a target="_blank" class="reference"
+                            href="https://www.cda.pl/video/895057a"> <span class="stoker"
+                                title="link do Stokera">Stoker</span></a> do buddyzmu. </p>
+
+                    <p>Zanim jednak do nich przejdziemy - zastanów się co zmusza przeciętnego szarego człowieka to
+                        zadania sobie pytania "dlaczego", oraz kontemplacji nad rzeczywistością? Co stanowi do tego
+                        impuls? Są to życiowe traumy, głównie takie jak śmierć i cierpienie (czyli to co obserwujemy
+                        teraz na świecie). Cierpienie znajduje się w centrum Kabały i to właśnie ono stanowi najszybszy
+                        sposób do naszego rozwoju. Zauważ, że skłoniły one wielu ludzi to refleksji - świadomość choć
+                        nadal jest na względnie niskim poziomie ostatnimi czasy wzrosła. </p>
+
+                    <p>Ludzie żyli w dobrobycie tak długo, że zatracili człowieczeństwo. To co nadchodzi ma za zadanie
+                        odbudować wartości i nieco zmodernizować światopogląd. Lecz żeby Świat stał się lepszym
+                        miejscem, potrzeba sprawić, aby ludzie zaczęli zadawać sobie pytanie "dlaczego?" i zaczęli
+                        kwestionować rzeczywistość - traumy takie jak cierpienie i śmierć to najszybsze drogi do tego.
+                    </p>
+
+                    <p>Masoni to głównie mistycy żydowscy, mistycy żydowscy to głównie Kabaliści. Zrozumienie Kabały
+                        powala zrozumieć bardzo wiele wydarzeń, które miały miejsce w historii. </p>
+
+                    <p>Poniżej przedstawiam jeden z najważniejszych symboli Kabały - Drzewo Życia. </p>
+                    <br>
+
+                    <a data-lightbox="mygallery" data-title="Kabalistyczne drzewo życia"
+                        href="https://i.ibb.co/p2hJJJJ/drzewo-zycia-1.jpg"><img class="tree-of-life"
+                            src="https://i.ibb.co/p2hJJJJ/drzewo-zycia-1.jpg" alt="drzewo-zycia-1"></a>
+                    <br>
+                    <p>
+                        Jak widać są tam trzy kolumny - <span class="red">lewa</span>, <span
+                            class="green">środkowa</span> i <span class="blue">prawa</span>. Podam teraz jedną z
+                        interpretacji nadanej przez mistyków: <span class="red">lewa</span> kolumna symbolizuje
+                        toksyczną męskość i to co z nią związane, <span class="blue">prawa</span> z kolei nawiązuje do
+                        kobiecej naiwnej natury, a <span class="green">środkowa</span> centrum, będące równowagą między
+                        tymi dwoma. Tych interpretacji jest wiele, można odnieść je do religii, a można także do
+                        bohaterek obydwu filmów. W Labiryncie Fauna <span class="red">lewą</span> kolumnę reprezentował
+                        brutalny Kapitan Vidal, <span class="blue">prawą</span> Mercedez, a <span
+                            class="green">środkową</span> Ofelia. W Stokerze <span class="red">lewą</span> kolumnę
+                        reprezentował bezuczuciowy i psychopatyczny Charlie, <span class="blue">prawą</span> naiwna i
+                        emocjonalna Evelyn, a <span class="green">środkową</span> autystyczna Ofelia. Biało czarne buty
+                        Ofelii w Labiryncie reprezentują symbol równowagi yin yang, czyli właśnie ową równowagę.
+                        Bohaterkami obydwu tych filmów są dziewczynki - z czego jedna jest dzieckiem, a druga jest nieco
+                        starsza, posiadają jednak wiele cech wspólnych. Żeby dobrze zrozumieć to o czym będę tutaj pisał
+                        polecam obejrzeć je obydwa i porównywać z tym co tu piszę. </p>
+
+                    <p>Chrześcijaństwo z kolei to religia odzwierciedlająca <span class="blue">prawą</span> kolumnę -
+                        miłość, współczucie, dobro. Ogólnie oddaje kobiecą naiwną naturę. Islam odzwierciedla <span
+                            class="red">lewą</span> kolumnę - agresja, dominacja oraz nietolerowanie sprzeciwu, a <span
+                            class="green"> </span> buddyzm z kolei jest drogą środka opartą na mądrości (sam Budda
+                        osiągnął "oświecenie" podążając właśnie drogą środka). </p>
+
+                    <p>Jak ktoś obejrzy te dwa filmy, to bardzo łatwo dostrzeże masę podobieństw, oraz zadziwi go
+                        spójność fabuł. Obydwie bohaterki znajdują klucz w drzewie - Ofelia wśród korzeni, a India
+                        wspinając się na drzewo. Po obejrzeniu ich obydwu nikt nie powinien mieć wątpliwości, że
+                        traktują o tym samym. W obydwu filmach należy <span class="attention">zwrócić uwagę na wybory
+                            bohaterek, ich zachowanie, na drzewo, broń, oraz klucz</span>. </p>
+                    <br>
+                    <p> Teraz jednak wejdźmy głębiej (uwaga będą spoilery): Ofelia znalazła klucz "w drzewie" wśród jego
+                        korzeni. India musiała się na nie wspiąć. Kabalistyczne drzewo życia to symbol przez który się
+                        wędruje od "korzenia" ku "koronie" która jest źródłem światła. Drzewo ma wieloznaczną symbolikę
+                        i jest najpopularniejszym "ezoterycznym symbolem" - stanowi to też nawiązanie do człowieka, bo
+                        my korzenie mamy w ziemi, ale umysłem sięgamy "nieba" (jesteśmy taką jakby osią łączącą świat
+                        ziemski i duchowy, tak jak właśnie owo drzewo). Czym tak na prawdę jest drzewo życia wyjaśnię
+                        później. Tak naprawdę nie ma ono nic wspólnego z mistyką, raczej z matematyką i fizyką.
+                        Jeśli chcesz dobrze zrozumieć te obszary powinieneś dokończyć film. Później będą jeszcze dwa
+                        ważne filmy, ale dla osoby z Twoja wiedzą nie będą one niezbędne, mogą co najwyżej wzbogacić
+                        Twoje spojrzenia na świat (rozumiejąc symbolikę z tych dwóch o wiele lepiej zrozumiesz kolejne).
+                        Tak więc oba filmy ukazują wędrówkę poprzez drzewo życia, gdzie bohaterka przyciągana jest i
+                        odpychana od lewej kolumny do prawej w czasie swojej wędrówki do światła.</p>
+                    <br>
+                    <p> Światło jest esencją Kabały i według kabalistów każdy z nas powinien dążyć do światła, oraz
+                        samemu promieniować nim na innych. </p>
+
+                </div>
+                <br>
+                <hr>
+
+                <!-- Symbolika filmów -->
+
+                <h3 id="symbolism">Symbolika filmów</h3>
+
+                <div class="symbols">
+
+                    <p>Te filmy są bardzo bogate w symbolikę, lecz człowiek, który nie ma wiedzy wiele z tego nie
+                        dostrzeże i nie zrozumie.Pewnej symboliki nie można umieszczać wprost, zawsze trzeba zostawić
+                        "furtkę", że to niby przypadek itd.</p>
+                    <p>Ktoś kto epatuje symbolami w bezczelny sposób dopuszcza się profanacji.</p>
+                    <p>Zauważ, że to co się pojawia, zawsze różni się szczegółami od znanych w popkulturze wzorców.</p>
+                    <p>Jedynie geometria pojawiająca się na ścianach itp. nie jest zmieniana, ale nikt nie zwraca uwagi
+                        na wzory na ścianach, chyba że jest Indią ;)</p>
+
+                    <p> Przejdźmy teraz do przekazu tych filmów. </p>
+                    <p> W Labiryncie było podziemne królestwo które miało bardzo głęboki sens. Jedno ze znaczeń odnosi
+                        się do filozofii bliskowschodniej. Budda przez pierwsze lata życia był trzymany w izolacji, żeby
+                        nie poznać "uroków" świata poza pałacem. Gdy zobaczył zło, cierpienie i choroby, przeszedł
+                        wewnętrzna przemianę i osiągnął oświecenie. </p>
+
+                    <p> W ostatniej scenie niewinna dziewczynka oddaje życie by ratować dziecko - woli przelać własną
+                        krew niż krew niewiniątka. Jest to pewne odniesienie do śmierci Chrystusa - symbolika jest taka
+                        sama. W filmie jest też wiele odniesień do chrześcijaństwa, jak np. biblijna mandragora, czy też
+                        "grzech pierworodny" - pamiętasz jak Ofelia nie posłuchała Fauna i podskubała jedzenie na
+                        uczcie? Mimo to nie zamknęło to jej drogi do światła, co uczy nas, że błędy choć spowalniają
+                        naszą drogę do "oświecenia", to nie pozbawiają nas możliwości dotarcia do Źródła, nie zamykają
+                        nam drogi. </p>
+
+                    <p>Katolicka jest też przemowa wygłoszona podczas śmierci żony kapitana: <span class="cite">
+                            "Ponieważ ścieżki do Pana są niezbadane; ponieważ istota Jego przebaczenia tkwi w Jego
+                            słowie iw Jego tajemnicy; bo chociaż Bóg zsyła nam przesłanie, naszym zadaniem jest je
+                            rozszyfrować. Bo kiedy otwieramy ramiona, ziemia przyjmuje tylko pustą i bezsensowną
+                            skorupę. Daleko teraz jest dusza w swej wiecznej chwale, ponieważ w bólu odnajdujemy sens
+                            życia i stan łaski, który tracimy, gdy się rodzimy; ponieważ Bóg w swojej nieskończonej
+                            mądrości składa rozwiązanie w nasze ręce; i ponieważ tylko pod Jego fizyczną nieobecność
+                            potwierdza się miejsce, które zajmuje w naszych duszach."</span> </p>
+
+                    <p> Chociaż są tam także elementy pogańskie - wróżki, Faun itd. Faun reprezentuje siły natury,
+                        uniwersalny porządek wszechrzeczy, a odkrycie go wymaga podróży do swojego wnętrza, a ta podróż
+                        wiedzie przez labirynt. Droga do światła to to samo co drzewo i ów labirynt. <a class="link"
+                            target="_blank" href="">https://pl.wikipedia.org/wiki/Faun</a> &#187; </p>
+
+                    <p> Zarówno Labirynt jak i Stoker pokazują drogę obydwu bohaterek do źródła (pojęcie tożsame że
+                        światłem i Bogiem), a żeby do niego dotrzeć należy pozbyć się ego. </p>
+
+
+
+                    <a data-lightbox="mygallery" data-title="Talerze w Stokerze ułożone w nawiązaniu do Drzewa Życia"
+                        href="https://i.ibb.co/r5L67sr/talerze-w-Stokerze.png"><img
+                            src="https://i.ibb.co/r5L67sr/talerze-w-Stokerze.png" alt="talerze w stokerze"></a>
+                    <br>
+                    <p> Powyższy kadr ze Stokera pochodzi ze sceny przedstawiającej nam pozycję Indii w drzewie Życia :)
+                        Znajduje się ona w centrum. Środkowy złoty talerz to India. </p>
+                    <br>
+
+                    <h4>Dziewczynki</h4>
+
+                    <p> Obydwie dziewczynki jak pewnie zauważyłeś były "inne" niż reszta, żyły w samotności, bez
+                        przyjaciół i były bardziej skupione na sobie (konkretnie to na swoim wnętrzu). </p>
+
+                    <p> W labiryncie bohaterka jest dzieckiem. W stokerze bohaterka jest nastolatką - lekko autystyczną,
+                        ponadprzeciętnie inteligentną osobą, jak sama o sobie mówi "widzę to czego inni nie widzą", co
+                        świadczy o tym, że ma lepszą percepcję niż większość ludzi. </p>
+
+                    <p>Osobowość Charlesa też znasz, zarówno on jak i Evelyn to skrajnie przerysowane sylwetki. Charles
+                        to pewny siebie, niezwykle inteligentny, pozbawiony emocji mężczyzna, a Evelyn to nad wyraz
+                        emocjonalna kobieta. India jest idealnym wyważeniem. Evelyn bardzo boli strata męża i woli
+                        uciekać jak najdalej od świadomości jego śmierci - w alkohol i świat zewnętrzny, dość blisko
+                        zbliżyła się do Charliego, choć ma świadomość, że jest on mordercą. </p>
+
+                    <p> W scenie z trójkątem na stoliku nocnym Indii leżą jakieś drobne przedmioty ułożone według
+                        wielkości, podobnie było z butami. India ma lekkiego aspergera i czuje potrzebę układania
+                        przedmiotów według jakiegoś porządku. Za aspergerem przemawia też jej zachowanie w ogrodzie,
+                        wrażliwość, wysoka inteligencja i umiejętność dostrzegania wzorców. I to co widać zwłaszcza przy
+                        scenie z odgrywaniem utworu, awersja do dotyku i kontaktu fizycznego. </p>
+
+                    <p>Głównymi bohaterkami obydwu filmów są dziewczynki. Jest tu kilka powodów: po pierwsze, kobiety są
+                        bardziej narcystyczne i mają większe ego niż my (spójrz na to ile selfiaków potrafią robić na
+                        mediach społecznościowych, zastanów się po co to robią i jak usychają bez atencji), drugą
+                        natomiast jest prawa półkula mózgowa, którą należy się kierować bardziej niż lewą przy
+                        zgłębianiu tych tematów. Prawa półkula mózgowa symbolizuje żeńskość, lewa męskość. Prawa półkula
+                        to kreatywność, intuicja, szukanie wzorców, wyobraźnia. Ma to też świadczyć o tym, że kobiety
+                        choć mają trudniej, to jednak też są w stanie dotrzeć do źródła. Nie wszystkie powody teraz Ci
+                        wypisałem, resztę zrozumiesz z czasem. By dotrzeć do źródła musimy znów stać się dziećmi -
+                        musimy mieć w sobie ciekawość, badać rzeczywistość, eksperymentować, odkrywać świat na nowo,
+                        ucząc się na błędach.
+                    </p>
+
+                    <p></p>
+
+                    <p></p>
+
+
+                    <br><br>
+                    <hr class="hatched">
+
+                    <h4>Geometria</h4>
+
+                    <p>Obydwa filmy mają w sobie sporo nawiązań do figur matematycznych i reguł rządzących
+                        wszechświatem. </p>
+                    <br>
+                    <p> Była w filmie taka scena, w której, India wachlowała kartkami na których były muszle i fale - co
+                        skojarzyło się jej z lodami. Fala i jej spiralny skręt podobnie jak muszla z jej spiralną budową
+                        mają niesamowicie ważne znaczenie, wskazują bowiem na uniwersalną zasadę budowy wszechświata i
+                        pewne liczby o czym będę mówił podczas wyjaśniania znaczenia geometrii. </p>
+                    <p> Muszle to najsłynniejszy przykład tej zasady. </p>
+                    <br>
+
+                    <a data-lightbox="mygallery" href="https://i.ibb.co/VWH7t1b/muszla-ciag-fibonacciego.jpg"><img
+                            src="https://i.ibb.co/VWH7t1b/muszla-ciag-fibonacciego.jpg"
+                            alt="muszla-ciag-fibonacciego"></a>
+                    <br>
+                    <p> Inną figurą, która pojawia się w kluczowych momentach filmu jest lampa o kształcie
+                        dwudziestościanu ściętego i zawiera w sobie jakby esencję filmu. Ta lampa to dwudziestościan
+                        ścięty, symoblizuje m.in wzajemne spajanie i przenikanie się pierwiastka męskiego i żeńskiego.
+                        Znaczenie tej lampy jest jednak szersze niż spajanie żeńskości i męskości. Lampa symbolicznie
+                        spaja także porządek (sześciokąt) z chaosem (pięciokąt). Odnosi się to zjawiska polaryzacji
+                        (wszystko jest spolaryzowane) i dwubiegunowości (dualizmu) wszechświata.</p>
+
+                    <p> Dobro zło, jasność ciemność, porządek chaos itd. </p>
+
+                    <p>Przechodząc dalej chcę, żebyś nie miał wątpliwości, że filmy zawierają bardzo spójny przekaz</p>
+                    <p>Dla masonów i kabalistów największe znaczenie poza trójkątem równobocznym mają sześciokąt i
+                        pięciokąt</p>
+
+                    <p>W Stokerze jest dużo symboli geometrycznych</p>
+
+
+                    <br>
+
+                    <a data-lightbox="mygallery" data-title="lampa o kształcie dwudziestościanu ściętego"
+                        href="https://i.ibb.co/b5bvfQv/lampa.jpg"><img src="https://i.ibb.co/b5bvfQv/lampa.jpg"
+                            alt="lampa o kształcie dwudziestościanu ściętego"></a>
+
+                    <br><br>
+
+                </div>
+                <hr class="hatched">
+
+                <!-- Ego -->
+
+                <h4>Ego</h4>
+
+                <div class="ego">
+
+                    <p>Zrozumienie tego czym jest ego jest tutaj bardzo ważne, pewnie niejednokrotnie się z tym pojęciem
+                        spotkałeś. Rozumienie ego, które teraz przedstawię różni się od ujęcia psychoanalizy, gdzie ego
+                        stanowi strukturę balansującą pomiędzy id a superego (nie przejmuj się jeśli nie rozumiesz).
+                        Tutaj pojawia się buddyzm, który jest bardzo blisko tego co powinniśmy słusznie nazywać ego. <a
+                            class="link" target="_blank"
+                            href="https://3dno.pl/id-ego-superego/">https://3dno.pl/id-ego-superego/</a> &#187; </p>
+
+                    <p> Ego bowiem to jest nasza wizja na temat nas samych, utożsamiana zazwyczaj ze wszystkim co w
+                        naszych oczach składa się na nasz byt (pokrywa się z definicją jaźni subiektywnej i jaźni
+                        odzwierciedlonej - gdybyś chciał to możesz sobie o tym poczytać) </p>
+
+                    <p> Ego jest mylone przez większość ludzi z pojęciem "prawdziwego ja", ponieważ ludzie zakładają, że
+                        są swoim fizycznym ciałem, swoimi myślami i ogólnie wszystkim co składa się na ich "osobę",
+                        podczas gdy nie rozumieją, że utożsamiają się z nieistniejącym konstruktem swojego umysłu, na
+                        temat swojej fizycznej powłoki, która sama w sobie składa się głównie z pustej przestrzeni (być
+                        może słyszałeś na fizyce, że 99,9% przestrzeni to pustka). </p>
+
+                    <p> W tym ujęciu podążanie za ego jest równoznaczne z pojęciem "id" z psychoanalizy, a jego
+                        zaspakajanie to zaspakajanie popędu, który zmusza ludzi do rywalizowania i podnoszenia swojej
+                        samooceny. </p>
+
+                    <p>Brak obiektywnego spojrzenia na siebie zmusza ludzi do podejmowania bezsensownego wysiłku
+                        polegającego na gromadzeniu dóbr i nadmiernej konsumpcji - większość ludzi kieruje się właśnie
+                        ego </p>
+
+                    <p> A czym jest nasze prawdziwe ja? Jest to punkt centralny całego schematu, pustka, osobliwość etc.
+                        Gdyby zaś na schemacie umieścić ego, to znajdowałoby się ono tam gdzie znajduje się okrąg w
+                        który wpisujemy cały wzór. Ego to miejsce, które łączy nas ze światem zewnętrznym, czyli nasze
+                        upośledzone zmysły i ciało fizyczne podlegające różnym instynktom i popędom. </p>
+
+                    <p>Kabała i buddyzm uczą podążać do światła, czyli do swojego prawdziwego ja. Kabała mówi też, że
+                        należy przyjmować światło ze źródła (osobliwości, korony, pustki itd.) i emanować
+                        (wypromieniowywać) na zewnątrz. Czyli poprzez samopoznanie i rozwijanie świadomości, dzielić się
+                        zdobytą wiedzą ze światem. </p>
+
+                    <p>W buddyzmie <span class="cite"> "pustka jest radością"</span>, buddyzm uczy poskramiania ego.
+                    </p>
+
+                    <a data-lightbox="mygallery"
+                        href="https://i.ibb.co/MN5ZSXj/kiedy-ego-umiera-dusza-sie-budzi.jpg"><img class="ego-cite"
+                            src="https://i.ibb.co/MN5ZSXj/kiedy-ego-umiera-dusza-sie-budzi.jpg"
+                            alt="kiedy-ego-umiera-dusza-sie-budzi"></a>
+                    <a data-lightbox="mygallery" href="https://i.ibb.co/k04dcvM/ego-nigdy-nie-akceptuje-prawdy.jpg"><img
+                            class="ego-cite" src="https://i.ibb.co/k04dcvM/ego-nigdy-nie-akceptuje-prawdy.jpg"
+                            alt="ego-nigdy-nie-akceptuje-prawdy"></a>
+
+                    <br><br>
+                    <p> Zrobić to można chociażby poprzez medytację, w trakcie której kierujesz się do wnętrza,
+                        poznajesz siebie, oraz źródło z którego pochodzisz. </p>
+
+                    <p> Podczas naszej wędrówki do osobliwości oddalamy się od ego i to jest główną przyczyną
+                        cierpienia. </p>
+
+                    <p> Innym sposobem na pozbycie się ego jest także np. pomaganie innym, odrzucenie egoizmu, na rzecz
+                        altruizmu, wyzbycie się lęku przed oceną innych,oraz nieocenianie i niewartościowanie(tego
+                        właśnie uczą nas buddyzm i Kabała). </p>
+
+                    <br><br>
+
+                    <!-- Pokonanie ego przez Ofelię -->
+
+                    <h4>Moment w którym Ofelia pokonała ego</h4>
+                    <div>
+                        <p>
+                            <p> Była to scena w której Ofelia weszła do drzewa (które zauważ, było chore) będące
+                                symbolem podróży do wnętrza, oraz pokonała żabę symbolizującą ludzkie ego (nienasycone,
+                                tłuste, bezkrytyczne, wiecznie żądne pochwał). </p>
+
+                            <p> Gest dłoni, trzy kamienie, drzewo i żaba są nieprzypadkowe - 3 kamienie symbolizują trzy
+                                kolumny. Żaba to ludzkie nienasycone ego, które uniemożliwia dotarcie do źródła.
+                                Nienasycony apetyt prędzej czy później i tak sprowadzi na nas traumę która albo nas
+                                wybudzi i pozwoli na zdobycie klucza, albo będzie przykładem dla innych i pozwoli im się
+                                wnieść. </p>
+
+                            <p> Symboliczne jest też to, że żaba posiada klucz w sobie. A kontakt z trzema kamieniami
+                                czyli trzema kolumnami, który normalnie prowadzą przez traumę do światła, dla żaby,
+                                która "uciekała" w obżarstwo zbyt daleko stanowił zbyt dużą traumę, która doprowadziłą
+                                ją do śmierci, za to pozwoliła na zdobycie klucza przez Ofelię. W życiu ktoś goni za
+                                szczęściem tak bardzo, że popada w jakiś nałóg tak głęboko, że doprowadza on go do
+                                choroby, i gdy przychodzi opamiętanie jest już za późno. W takiej sytuacji ludzie z
+                                otoczenia osoby uzależnionej, czy goniącej za szczęściem mogą wyciągnąć wnioski.
+                                Obłocona sukienka była tu symbolem tego, że Ofelię przestał obchodzić świat zewnętrzny.
+                            </p>
+                    </div>
+
+                    <div class="important">
+                        <p>Mam do Ciebie prośbę - w przyszłości będziemy wchodzić w rejony nie do końca odkryte i chcę
+                            byś nie brał wszystkiego co mówię jako pewnik - choć to co będę pisał ma sens, to pewne
+                            rzeczy będą tylko moimi interpretacjami i mogą być błędne. Chcę byś był sceptyczny wobec
+                            tego co Ci podsuwam - jak zapewne wiesz, żaden z nas nie jest w stanie poznać pełnej prawdy,
+                            możemy się tylko do niej przybliżać, a nawet mimo to znamy bardzo wąski wycinek
+                            rzeczywistości.</p>
+                    </div>
+
+
+                    </p>
+
+                    <div class="dreams" id="LD_OOBE">
+                        <hr>
+                        <h3>LD i OOBE</h3>
+                        <p> LD i OOBE to zjawiska pomagające zrozumieć nam naturę rzeczywistości i poszerzenie
+                            postrzegania - to także świetny sposób na wykorzystanie swojego czasu do maksimum i relaks.
+                            Medytacja zwiększa częstotliwość ich występowania i ułatwia osiąganie tych stanów. Ok. 50%
+                            ludzi chociaż raz doświadczyła świadomego snu w swoim życiu. </p>
+
+                        <p>Jeśli chcesz się utrzymać w LD to musisz przede wszystkim zachować w nim spokój i nie
+                            ekscytować nadmiernie - bez tego zostaniesz z niego wyrzucony. </p>
+
+                        <p>Moja metoda na LD jest taka, że często u mnie działało wyciszenie się przed snem (za pomocą
+                            medytacji) i mówienie sobie w łóżku kilkanaście razy afirmacji "dziś będę miał świadomy sen"
+                            i w myślach też. Warto to połączyć z codziennym nawykiem patrzenia sobie na dłonie tak z
+                            tyle razy ile będziesz pamiętał i zadawanie sobie pytania "rzeczywistość czy sen"? w śnie
+                            jest pełno absurdów, a jednym z nich jest właśnie to, że ręce nigdy są do siebie podobne).
+                            Po jakimś czasie wejdzie Ci to w pamięć i zaczniesz ją wykonywać także we śnie. </p>
+
+                        <p>Ogólnie to w snach warto szukać też różnych absurdów, wtedy część mózgu odpowiedzialna za
+                            świadomość się włącza.</p>
+
+                        <p> Piszę Ci o tym też dlatego, że jak opanujesz LD na w miarę przyzwoitym poziomie to można z
+                            niego dość łatwo przejść do OOBE.</p>
+
+                        <p>Fajną techniką na OOBE jest np. metoda 4+1, poczytaj sobie o niej. Świetnym sposobem na jego
+                            osiągnięcie jest także paraliż przysenny - wtedy zamiast walczyć z ciałem należy się
+                            zrelaksować i odprężyć, czekając na wibracje w całym ciele, a jak się już pojawią to wyobraź
+                            sobie, że ktoś Cię wyciąga za ramię, lub unosisz się w stronę sufitu. Tak ma to miejsce w
+                            przypadku prawdziwego wyjścia - poczujesz jakby ktoś Cię pociągał i cyk, jesteś poza ciałem.
+                        </p>
+
+                        <p>Ld i OOBE są to odmienne stany świadomości, a świadomość nie jest wytworem naszego mózgu, on
+                            jest tylko jej odbiorcą. Przypuszczam, że jest to powiązane ze światami równoległymi,
+                            połączone na zasadzie splątania kwantowego.</p>
+
+                        <p>Częstą przyczyną niepowodzeń w wyjściu z ciała jest strach (nasze ciała astralne są bardzo
+                            strachliwe) i to on blokuje człowieka przed wyjściem. Przyczyną niepowodzeń jest także
+                            nadmierne przywiązanie do otaczającej nas materii - która jest tylko iluzją i ułudą.
+                            Doświadczenia podczas OOBE są bliższe prawdziwej rzeczywistości.</p>
+
+                        Tak swoją drogą - to według wielu fizyków kwantowych, oraz buddystów wychodzimy z ciała każdej
+                        nocy nie będąc tego świadomymi.
+
+                        <p>Wielu przeciętnych ludzi, którzy pierwszy raz słyszą o tym zjawisku, lub nie wgłębiali się w
+                            nie zbytnio i są przesiąknięci wpływem naszej rodzimej religii uważa, że wyjście z ciała
+                            jest niebezpieczne i otwiera nas na możliwość opętania, co jest kompletną bzdurą. Według
+                            wielu ezoteryków, nasze ciało astralne (w chrześcijaństwie znane jako dusze) jest połączone
+                            z fizyczną powłoką cienką srebrzystą nicią, która zrywa się ostatecznie dopiero w momencie
+                            śmierci. Jeśli podczas wyjścia z ciała zapragniesz wrócić wystarczy, że o tym pomyślisz.</p>
+
+                        <p>Rzeczowe spojrzenie na świat może być problemem, gdyż powoduje ono oczekiwania wobec LD i
+                            OOBE (przez co możesz ich nie uzyskać - u mnie to było przyczyną niemożności ich
+                            osiągnięcia). Ludzie, którzy posługują się tylko rozumem często są za bardzo przywiązani do
+                            materii - mówię to ze swojego punktu widzenia. </p>
+
+                        <p>Im mocniej dotrze do Ciebie, że iluzją jest świat materialny, a rzeczywistością to co po
+                            drugiej stronie, tym łatwiej będzie Ci w tamtych stanach przebywać i dążyć do prawdy. Tutaj
+                            należy mieć podejście naukowe (czyli badać i doświadczać rzeczywistości), a jednocześnie
+                            kierować się intuicją (jest ona bardzo ważna).
+                            Należy szukać rzeczywistości w mistycyzmie i mistycyzmu w rzeczywistości. Wraz z rozwojem
+                            dyskusji Twoje postrzeganie świata ulegnie zmianie i łatwiej będzie Ci uzyskiwać te stany i
+                            w nich przebywać.</p>
+
+                        <p>Pierwsze przygody z OOBE są przerażające - gdyż człowiek widzi dziwne cienie, nad którymi nie
+                            ma kontroli (w mojej ocenie wynika to jeszcze z niedojrzałości), potem one znikają. </p>
+
+                        <p>Jeśli człowiek przywiązuje się do materii, którą obserwuje to te świadome sny i wyjścia z
+                            ciała zaczynają zanikać - lecz w miarę jak będziesz zagłębiał się w "ezoterykę" będzie Ci
+                            łatwiej.</p>
+
+                        <p>Trzeba w pewnym sensie znowu stać się dzieckiem i badać, oraz odkrywać świat na nowo na
+                            podstawie doświadczania (tak jak bohaterki tych filmów).</p>
+
+                        <!-- OOBE W RELIGIACH  -->
+                        <div class="clear-inline">
+                            <div class="oobe-in-religions">
+
+                                <div class="oobe-religion">
+                                    <h3>OOBE w Buddyzmie</h3>
+                                    <p>Buddyjska literatura i przekazy ustne wspominają o podróżach poza własnym ciałem,
+                                        które odbywają się w ciele astralnym. Stan taki rozwija się w wyniku praktyki
+                                        medytacji i jogi tantr.
+
+                                        Według buddyzmu każdy z nas odbywa nieświadomą podróż astralną podczas zwykłych
+                                        snów, ale również i świadomych. Ten drugi stan jest niezwykle korzystny, gdyż
+                                        łatwiej można wtedy ograniczyć rozproszenie zmysłów (rmi-lam-gyi lus).</p>
+                                </div>
+
+                                <div class="oobe-religion">
+                                    <h3>OOBE w Islamie</h3>
+                                    <p>Islam podróże poza ciałem traktuje jako rzecz niczemu nie służącą i zbędną,
+                                        dlatego nie polecaną dla wyznawców tej religii. Osobom, u których występują
+                                        spontaniczne OBE zaleca się czytanie fragmentów Koranu. Niektórzy wyznawcy
+                                        islamskiego mistycyzmu twierdzą, że nocna podróż proroka Mahometa, znana pod
+                                        nazwą Isra i Miraj, była podróżą poza ciałem.</p>
+                                </div>
+
+                                <div class="oobe-religion">
+                                    <h3>OOBE w Hinduizmie</h3>
+                                    <p> Opisy podróży poza ciałem można napotkać już w starych tekstach hinduistycznych
+                                        YogaVashishta-Maharamayana i naukach mistrza Walmiki. Wielu współczesnych
+                                        Hindusów (między innymi Paramahansa Jogananda, Osho (Bhagwan Shree Rajneesh),
+                                        pełniących w tamtejszej kulturze rolę nauczycieli i mistrzów duchowych, naucza o
+                                        podróżach poza ciałem lub samemu je praktykuje.
+
+                                        Mistrz Meher Baba wyrażał pogląd, że podjęte z pełną świadomością i w wyniku
+                                        umyślnej woli podróże astralne, uczą więcej niż nieświadome, odbywane podczas
+                                        snu. Świadczą o wewnętrznym zaawansowaniu osoby, która je praktykuje i są okazją
+                                        do dalszego rozwoju duchowego.</p>
+                                </div>
+
+                                <div class="oobe-religion">
+                                    <h3>OOBE Bahaizm</h3>
+                                    <p>Wedle wyznawców bahaizmu, podróże poza ciałem mogą być metodą poznania świata
+                                        duchowego oraz tego, co czeka nas po śmierci.</p>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <!-- OOBE W RELIGIACH  -->
+
+                        <hr>
+
+                        <div id="demonology">
+                            <h3>Demony i Szatan</h3>
+
+                            <p>Chrześcijanie czy przeciętni ludzie traktują OOBE, medytacje, jogę, czakry i wszystko co
+                                odbiega od doktryny Kościoła, wszystko to czego nie są w stanie zrozumieć jako przejaw
+                                działania demonów i Szatana. <p></p>
+
+                                <p>Przy OOBE to jestem w stanie to zrozumieć, takie osądy można mieć ze względu na
+                                    przerażające pierwsze próby.</p>
+
+                                <p>Demony są bzdurami, którymi nie powinieneś zaprzątać sobie głowy, to tylko bajeczki.
+                                </p>
+
+                                <p>Często mówi się, że ktoś zmaga się z demonami - mamy na myśli wtedy to, że zmaga się
+                                    z jakimiś wewnętrznymi problemami.</p>
+
+                                <p>Skrajnym przykładem tego typu ludzi, którzy za wszelkie zło na świecie obwiniają
+                                    jakieś wyimaginowane byty - jest chociażby znany ekspert od masonerii Stanisław
+                                    Krajski - ( dla niego całe zło, nieuczciwość, chciwość, głupota, wyzysk, realizacja
+                                    planu elit są efektami działania demonów - cenię gościa za wiedzę, ale ma bardzo
+                                    zamknięty umysł).</p>
+
+                                <p>Zastanów się - czy mówienie o kimś, że działa pod wpływem Szatana, czy demona nie
+                                    jest pozbywaniem się odpowiedzialności z siebie i przerzucaniem jej na jakiś byt,
+                                    którego istnienie jest wątpliwe? "To nie ja jestem zły, to Szatan mnie kusi".</p>
+
+                                <p>Wszechświat w którym żyjemy jest przykładem działania pozytywnych sił - zło jakie w
+                                    nim jest pochodzi głównie od ludzi, a jego przyczyną jest właśnie ego.</p>
+
+                                <p>Demony mogłyby co najwyżej pochodzić z nieodkrytego przez nas czwartego wymiaru, ale
+                                    to i tak bardzo mało prawdopodobne.</p>
+
+                                <p> <i class="fa-solid fa-block-question">?</i> Przejdźmy teraz do rozważań - czy
+                                    gdybyśmy jako ludzkość nigdy nie wyszli z ogrodu Eden to czy rozwijalibyśmy się?</p>
+
+                                <p> Odpowiedź brzmi: oczywiście nie. Byłoby to jak nieskończona pętla w kodzie. Wiesz co
+                                    się dzieje jak żyjesz w Edenie? Dzieło stworzenia się nie wykonuje.</p>
+
+                                <p>I przez dwa miliony lat posługujesz się kamiennymi narzędziami, aż przychodzi
+                                    katastrofa albo przeciwnik, który zmusza Cię do zrobienia kroku naprzód.</p>
+
+                        </div>
+
+                        <hr class="hatched">
+
+                        <div class="cabbalah">
+
+                            <h4>Księga Rodzaju a Kabała</h4>
+                            <br><br>
+
+                            <p>Księga Rodzaju stanowi esencję Kabały. Adam i Ewa symbolizują kolumny kabalistycznego
+                                drzewa życia (na obrazach w prawidłowym położeniu :)) </p>
+
+                            <p>Samo drzewo jako kolumna środkowa. Owoc w koronie jest zwieńczeniem czyli światłem, a wąż
+                                ścieżką wiodącą do poznania.</p>
+
+                            <a data-lightbox="mygallery" href="https://i.ibb.co/dGVrxK5/adam-i-ewa.jpg"><img
+                                    class="adam-and-eve" src="https://i.ibb.co/dGVrxK5/adam-i-ewa.jpg" width="400px"
+                                    alt="adam-i-ewa"></a>
+
+                            <p>Kiedy Ewa zjadła owoc poznało zło. Znajomość zła jest niezbędna by wiedzieć czym jest
+                                dobro. Czyli Ewa zyskała wiedzę, można powiedzieć, że Adam i Ewa byli pierwszymi
+                                kabalistami.</p>
+
+                            <p>Mówi się, że ciekawość jest pierwszym stopniem do piekła, a Lucyfer niesie światło, więc
+                                drogą do źródła jest "piekło" (czyli trauma, cierpienie itd.) ;) </p>
+
+                            <p>W każdym bądź razie chodzi mi o to, że wąż jest symbolem poznania, wiedzy, a nie zła.</p>
+
+                            <p>W innych kulturach wąż nie symbolizuje zła i szatana jak w chrześcijaństwie, tylko jest
+                                strażnikiem wiedzy i ścieżki. Jak np. <a target="_blank" class="link"
+                                    href="https://pl.wikipedia.org/wiki/Nagowie_(mitologia)">Naga</a> w hinduizmie i
+                                buddyzmie.</p>
+
+                            <p>Wyjście z raju stanowiło zatem kres ignorancji i początek rozwoju.</p>
+
+                            <p>Właśnie dlatego Ci mówiłem, że chrześcijaństwo robi z ludzi niedojrzałe dzieci, a dążenie
+                                do wiedzy nazywa grzechem, dlatego musi ono upaść (Kościoły w przyszłym świecie raczej
+                                będą istnieć, co więcej pewna liczba ludzi, która przeżyje to co nadciąga będzie myśleć,
+                                że przeżyła Apokalipsę - ale raczej mało kto będzie do nich uczęszczał, dogmaty tej
+                                religii dla większości ludzi zostaną skompromitowane).</p>
+
+                            <p>Po prostu nie będzie takiej potrzeby, kiedy ludzie zrozumieją, że "zbawienie" (wolę
+                                używać słowa oświecenie) muszą osiągnąć sami, a nie liczyć na to, że ktoś zrobi to za
+                                nich.</p>
+
+                            <p>Ludziom pokaże się także elementy wspólne wielkich religii, oraz ich korzeń
+                                (ogólnoświatową religią przyszłości będzie prawdopodobnie gnostycyzm).</p>
+
+                            <p>Wiesz co się dzieje jak żyjesz w Edenie? Dzieło stworzenia się nie wykonuje. I przez dwa
+                                miliony lat posługujesz się kamiennymi narzędziami, aż przychodzi katastrofa albo
+                                przeciwnik, który zmusza Cię do zrobienia kroku naprzód. Żyjąc w Edenie żylibyśmy w
+                                stanie ignorancji, to właśnie cierpienie i trudne sytuacje życiowe dają nam szansę na
+                                rozwój i pozwalają zrobić krok do przodu.</p>
+                            <br><br>
+
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div id="religions" class="root-religions">
+
+                        <hr>
+
+                        <h3>Korzenie religii i elementy wspólne</h3>
+
+                        <div class="centered">
+                            <a data-lightbox="mygallery" data-title="drzewo ewolucyjne religii"
+                                href="https://i.ibb.co/xYSzFB8/drzewo-wszystkich-religii-1-1.webp"><img
+                                    class="religions-root" src="https://i.ibb.co/WVGswj9/drzewo-wszystkich-religii.jpg"
+                                    alt="drzewo-ewolucyjne-religii"></a>
+                        </div>
+
+
+                        <p>To bardzo ciekawe drzewko tego jak ewoluowały najważniejsze religie (są tutaj tylko te
+                            najważniejsze, licząc wszelkie odmiany na planecie jest teraz ok. 4300 religii, a w
+                            przeszłości było jeszcze tysiąc, które obecnie są martwe).
+
+
+                            <p>Tu można spędzić kilka wcieleń analizując wszystko co znajduje się powyżej grubej krechy
+                                12,500 BCE. Błąd, który popełnia większość ludzi w drodze do prawdy (sam go
+                                popełniałem), to skupianie się na obrzędach - tą drogą też dojdziesz do źródła, ale
+                                zajmie to niesamowicie wiele czasu. </p>
+
+                            <p>Wiedzy, którą chce Ci przekazać nie da się uproscić w kilku zdaniach. To wymaga
+                                zrozumienia, ale pomija ślepe uliczki obrzędów, które odwracają uwagę od sedna.</p>
+
+                            <p>Niestety mogę Cię doprowadzić tylko do miejsca, w którym powiesz "to takie proste,
+                                dlaczego ludzie tego nie dostrzegają?"</p>
+
+                            <p>Kabała i buddyzm (które są blisko prawdy), wcale nie były pierwsze i istniało coś jeszcze
+                                starszego od nich, ale o tym jeszcze nie teraz.</p>
+
+                            <p>W wielu książkach, czy na stronach internetowych jest dużo opisów symboli na zasadzie
+                                nadanych znaczeń. A znaczenie symbolom nadają ludzie.
+                                Natomiast symbol ma pochodzenie. I to pochodzenie stanowi clou.</p>
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="trauma">
+                    <hr>
+
+                    <h3>Trauma</h3>
+                    <p>Podczas sceny z graniem na fortepianie w Stokerze nastąpiło badanie Indii przez Charliego -
+                        zbliżył się do niej i badał jej reakcję, on jej ruchy odbierał za podniecenie, podczas gdy w
+                        gruncie rzeczy miała ona awersję do dotyku.</p>
+                    <p>Ciemne nie oznacza złe a jasne nie oznacza dobre.</p>
+                    <p>Wszystko zależy od tego w którym kierunku podążamy, a w zgodzie z filozofią o której rozprawiamy
+                        źródłem prawdy, mądrości i światła jest tak zwana korona (czym ona tak naprawdę jest dowiesz się
+                        później, jednakże w życiu można obrać zazwyczaj dwa kierunki). </p>
+                    <p>"Do wnętrza" i "na zewnątrz"</p>
+                    <p>Posłużę się przykładem z życia.Jak człowieka spotyka trauma może wybrać dwa rozwiązania:</p>
+                    <p>Zagłębić się w źródło traumy i swoją osobę. Zmierzyć z cierpieniem i rozwiązać problem. To jest
+                        droga do wnętrza</p>
+                    <p>Druga to ucieczka w świat materialny, zabawy, alkohol, nałogi itd.</p>
+                    <p>Oddala nas od osobliwości i źródła mądrości.</p>
+                    <p>Te dwa filmy opowiadają właśnie o tej drodze.</p>
+                    <p>A odbywa się ona wzdłuż osi północ południe na drzewie życia, gdzie jesteśmy przyciągani przez
+                        jego lewą albo prawą kolumnę - jeśli chcemy by iść zgodnie z naszym przeznaczeniem musimy
+                        podążać drogą środka.</p>
+
+                    <h4>Trauma i ego</h4>
+
+                    <br>
+
+                    <p>Matka Indii jest przykładem osoby, która po traumie jaka ją spotkała (stracie męża) wybrała
+                        ucieczkę w świat zewnętrzny, która jak już mówiłem oddala nas od źródła mądrości i może znacznie
+                        opóźnić nasz rozwój (jeśli w porę nie wyciągniemy wniosków)</p>
+                    <p>Jak spojrzysz na społeczeństwo i ludzi wokół - tak właśnie postępuje większość ludzi</p>
+
+                    <p>Najniższe poziomy drzewa życia to właśnie stany ego, na których żyje większość ludzi, celem
+                        naszego inkarnowania na tej planecie jest dojście do korony i osiągniecie doskonałości, poprzez
+                        ciągły niczym nie ograniczony rozwój</p>
+                </div>
+
+            </div>
+
+            <aside class="bonus">
+                <h2>Materiały dodatkowe, pomocne w zrozumieniu: </h2>
+                <!-- <div class="hide-eye" title="Ukryj/Pokaż element">&#128065;</div> -->
+                <div class="bonus-container">
+                    <div class="buddhism">
+                        <p class="buddhism">Buddyzm</p>
+
+                        <iframe width="500" height="300" src="https://www.youtube.com/embed/Whjg3njYpLA"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <iframe width="500" height="300" src="https://www.youtube.com/embed/Oh9-ZUSVv3A"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <iframe width="500" height="300" src="https://www.youtube.com/embed/u5viyAZFUiE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                    </div>
+
+                    <div class="oobe">
+                        <p class="ld-oobe">LD i OOBE</p>
+
+                        <iframe width="500" height="300" src="https://www.youtube.com/embed/YQjAIlFZWWc"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="church-materials">
+                        <p class="church">Kościół</p>
+
+                        <iframe width="500" height="300" src="https://www.youtube.com/embed/I_ys4p9zkkg"
+                            title="Diabły w Watykanie [część 1] | W mroku historii #15" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="links">
+                        <h2>Książki</h2>
+                        <div class="book">
+                            <a class="download"
+                                href="Books/21 lekcji na XXI wiek by Yuval Noah Harari (z-lib.org).mobi.pdf"
+                                target="_blank">Yuval Noah Harari - 21 lekcji na XXI wiek</a>
+                        </div>
+
+                        <div class="book">
+                            <a class="download" href="Books/Harari Y.N. - Homo deus.pdf" target="_blank">Yuval Noah
+                                Harari - Homo Deus</a>
+                        </div>
+
+                        <div class="book">
+                            <a class="download" href="Books/Zyc zyczliwie - nauki buddy na temat metty.pdf"
+                                target="_blank">
+                                Żyć życzliwie - nauki Buddy na temat metty</a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+
+
+        <!-- footer  -->
+
+        <footer>
+            <p>alpha 0.5</p>
+        </footer>
+
+        <div class="changes">
+            <div class="close-x">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+
+            <h3>Zmiany:</h3>
+            <h5>0.5</h5>
+            <p>Możliwość wyświetlania i pobierania książek</p>
+            <p>Poprawa responsywności</p>
+            <p>Wycentrowanie obrazów</p>
+            <p>Poprawki błędów</p>
+            <p></p>
+            <h5>0.4.1</h5>
+            <p>Poprawki błędów</p>
+            <p>Poprawiona optymalizacja</p>
+            <h5>0.4</h5>
+            <p>Strona jest umieszczona na hostingu, przez co łatwiej można z niej korzystać</p>
+            <p>Dodano menu</p>
+            <p>Możliwość powiększania grafik</p>
+            <p>Poprawa błędów</p>
+            <br>
+            <h5>0.3</h5>
+            <p>dodanie trybu ciemnego</p>
+            <p>poprawa wyglądu cytatów i linków</p>
+            <p>naprawa błędów</p>
+            <p>optymalizacja i poprawa czytelności kodu</p>
+
         </div>
-      </div>
-    </section>
-    <section class="section--posts">
-      <div class="container">
-        <h2 class="posts__header title-yellow">Inspiracje i wiedza</h2>
-        <div class="posts__list">
-          <a href="https://cyberfolks.pl/blog/3-kroki-do-lepszej-wydajnosci-i-bezpieczenstwa-wordpress/" target="_blank" class="post">
-            <img src="https://cyberfolks.pl/wp-content/uploads/2019/03/photo-of-yellow-boots-near-flowers-712883_wynik-844x580.jpg" class="post__image" alt="" />
-            <h3 class="post__title title-yellow">
-              3 kroki do lepszej wydajności na hostingu WordPress
-            </h3>
-            <p class="post__description">
-              Jak w 3 prostych krokach skonfigurować swoją usługę pod kątem lepszej wydajności WordPress? Oto proste kroki do zrobienia od razu.
-            </p>
-          </a>
-          <a href="https://cyberfolks.pl/blog/backup-strony-i-poczty-4x4/" target="_blank" class="post">
-            <img src="https://cyberfolks.pl/wp-content/uploads/2019/05/adult-books-business-coffee-374016_wynik-844x580.jpg" class="post__image" alt="" />
-            <h3 class="post__title title-yellow">
-              Backup strony i poczty 4×4. Ochrona danych w hostingu do 28 dni wstecz!
-            </h3>
-            <p class="post__description">
-              Backup strony – dlaczego backup w firmie hostingowej jest tak ważny i ile hosting przechowuje Twoje dane? Zobacz, jak wykonuje się kopie strony i poczty.
-            </p>
-          </a>
-          <a href="https://cyberfolks.pl/blog/jak-robic-dobre-zdjecia/" target="_blank" class="post">
-            <img src="https://cyberfolks.pl/wp-content/uploads/2019/12/pexels-photo-3417667-844x580.jpeg" class="post__image" alt="" />
-            <h3 class="post__title title-yellow">
-              Jak robić dobre zdjęcia, aby sprzedawać więcej w PrestaShop?
-            </h3>
-            <p class="post__description">
-              Fotografia produktowa stała się bardzo popularna. Niejedno studio fotograficzne ma w swojej ofercie profesjonalne usługi fotograficzne przeznaczone specjalnie dla sklepów […]
-            </p>
-          </a>
-        </div>
-      </div>
-    </section>
-    <style>
-      body,
-      html {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #3c3d38;
-      }
+    </div>
 
-      *,
-      *::after,
-      *::before {
-        box-sizing: border-box;
-      }
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-      header {
-        background-color: rgba(216, 216, 216, 0.2);
-        padding-top: 69px;
-        border-top: 6px solid #ffcd02;
-      }
+    <script src="droga_do_swiatla.js"></script>
 
-      header .container {
-        display: flex;
-        justify-content: space-between;
-      }
+</body>
 
-      .header__logo svg {
-        width: 200px;
-      }
+<!-- v0.4.1 -->
 
-      .section--landing-hero {
-        padding-top: 128px;
-        padding-bottom: 150px;
-        background-color: rgba(216, 216, 216, 0.2);
-      }
-
-      .section--landing-hero .container {
-        display: flex;
-      }
-
-      .column__content--left {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        padding-right: 50px;
-      }
-
-      .column__content--right {
-        display: flex;
-        padding-left: 50px;
-        width: 50%;
-        align-items: flex-start;
-      }
-
-      .column__content--right img {
-        max-width: 527px;
-        margin-left: auto;
-        width: 100%;
-        object-fit: contain;
-      }
-
-      .landing-hero__title {
-        font-size: 56px;
-        font-weight: 600;
-        letter-spacing: 0;
-        line-height: 65px;
-        margin-top: 0;
-        margin-bottom: 24px;
-        max-width: 665px;
-      }
-      .landing-hero__title .yellow {
-        color: #ffcd02;
-      }
-
-      .landing-hero__description {
-        font-size: 16px;
-        letter-spacing: 0;
-        line-height: 24px;
-        margin-bottom: 42px;
-        margin-top: 0;
-      }
-
-      .landing-hero__description a {
-        color: #ffcd02;
-        font-weight: bold;
-      }
-
-      .landing-hero__btn {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .landing-hero__btn span {
-        font-size: 16px;
-        font-weight: bold;
-        letter-spacing: 0;
-        line-height: 24px;
-        margin-bottom: 24px;
-      }
-
-      .btn--yellow {
-        padding: 22px 48px;
-        text-transform: uppercase;
-        background-color: #ffcd02;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #3c3d38;
-        font-family: Arial;
-        font-size: 16px;
-        font-weight: bold;
-        line-height: 18px;
-        text-decoration: none;
-        transition: all 0.2s ease-in-out;
-      }
-      .btn--yellow:hover {
-        background-color: #ffbd00;
-      }
-
-      .header__links {
-        display: flex;
-        align-items: center;
-      }
-
-      .header__links > a {
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-      }
-      .header__links > a:hover .link__text {
-        color: #ffcd02;
-      }
-      .header__links > a:last-of-type {
-        margin-left: 80px;
-      }
-
-      .header__links > a .link__text {
-        color: #3c3d38;
-        font-family: Arial;
-        font-size: 16px;
-        letter-spacing: 0;
-        line-height: 22px;
-        margin-left: 8px;
-        transition: color 0.2s ease;
-      }
-
-      /*///////POSTS///////*/
-
-      .section--posts {
-        padding-top: 96px;
-        padding-bottom: 78px;
-      }
-
-      .posts__header {
-        font-size: 32px;
-        font-weight: bold;
-        letter-spacing: 0;
-        line-height: 22px;
-        margin-bottom: 86px;
-      }
-      .title-yellow::before {
-        content: "> ";
-        color: #ffcd02;
-      }
-      .title-yellow::after {
-        content: "_";
-        color: #ffcd02;
-      }
-
-      .posts__list {
-        display: flex;
-        margin-left: -23px;
-        margin-right: -23px;
-        flex-wrap: wrap;
-      }
-
-      .post {
-        flex: 0 0 33.333333%;
-        display: flex;
-        flex-direction: column;
-        max-width: 33.333333%;
-        padding: 0 23px 46px;
-        text-decoration: none;
-        
-      }
-      .post:hover .post__title {
-        color: #ffcd02;
-        
-      }
-      .post__image {
-        display: block;
-        max-width: 100%;
-        height: auto;
-      }
-
-      .post__title {
-        font-size: 22px;
-        font-weight: bold;
-        letter-spacing: 0;
-        line-height: 32px;
-        margin-bottom: 16px;
-        color: #3C3D38;
-        transition: all .2s ease-in-out;
-
-      }
-
-      .post__description {
-        color: #959a90;
-        font-family: Arial;
-        font-size: 16px;
-        letter-spacing: 0;
-        line-height: 22px;
-        margin: 0;
-      }
-      .mobile-show {
-        display: none;
-      }
-      @media screen and (min-width: 1280px) {
-        .container {
-          padding: 0 100px;
-          max-width: 1585px;
-          margin: 0 auto;
-        }
-      }
-
-      @media screen and (max-width: 1279px) and (min-width: 1200px) {
-        .container {
-          padding: 0 50px;
-        }
-      }
-
-      .container {
-        padding: 0 30px;
-      }
-
-      @media screen and (max-width: 1199px) {
-        .landing-hero__title {
-          font-size: 50px;
-          line-height: 60px;
-          max-width: 100%;
-        }
-      }
-
-      @media screen and (max-width: 991px) {
-        .landing-hero__title {
-          font-size: 42px;
-          line-height: 52px;
-        }
-        .post {
-          flex: 0 0 50%;
-          max-width: 50%;
-        }
-      }
-      @media screen and (max-width: 767px) {
-        .section--posts {
-          padding-top: 80px;
-        }
-        .section--landing-hero {
-          padding: 80px 0;
-        }
-        .posts__list {
-          margin-left: -15px;
-          margin-right: -15px;
-        }
-        .header__links > a:last-of-type {
-          margin-left: 30px;
-        }
-        .section--landing-hero > .container {
-          flex-wrap: wrap;
-        }
-        .column__content--right {
-          width: 100%;
-          padding: 0;
-          margin-top: 30px;
-        }
-        .column__content--left {
-          width: 100%;
-          padding-right: 0;
-        }
-
-        .column__content--right img {
-          margin: 0 auto;
-        }
-        .post {
-          flex: 0 0 100%;
-          max-width: 100%;
-          padding: 0 15px 46px;
-        }
-      }
-      @media screen and (max-width: 580px) {
-        .mobile-show {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          width: 100%;
-        }
-        .header__links,
-        .column__content--right {
-          display: none !important;
-        }
-        .landing-hero__btn {
-          margin-bottom: 24px;
-        }
-        .mobile-show a {
-          color: #3c3d38;
-          font-family: Arial;
-          font-size: 16px;
-          letter-spacing: 0;
-          line-height: 22px;
-          margin-bottom: 15px;
-          text-decoration: none;
-        }
-        .mobile-show a:hover,
-        .mobile-show a:focus {
-          color: #ffcd02;
-        }
-        .btn--yellow {
-          width: 100%;
-        }
-       
-      }
-      @media screen and (max-width: 480px) {
-       
-        .section--landing-hero {
-          padding-top: 70px;
-          padding-bottom: 100px;
-        }
-        .landing-hero__title {
-          font-size: 32px;
-          line-height: 42px;
-        }
-        .posts__header {
-          font-size: 26px;
-          line-height: 1.125;
-          margin-bottom: 50px;
-        }
-        .post__title {
-          font-size: 16px;
-          line-height: 1.45;
-        }
-        .post__description {
-          font-size: 14px;
-          line-height: 1.4;
-        }
-      }
-    </style>
-  </body>
 </html>
