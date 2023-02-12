@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+html {
+    font-family: roboto;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+:root {
+    --primary-color: white;
+    --secondary-color: #000;
+    --third-color: rgb(193, 233, 166);
+}
+
+.dark-theme {
+    --primary-color: #15202b;
+    --secondary-color: #fff;
+    --third-color: rgb(91, 121, 71);
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(139, 186, 202);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(110, 104, 104);
+}
+
+::selection {
+    background-color: lightblue;
+}
+
+div.switch {
+    position: absolute;
+    top: 2vh;
+    right: 2vh;
+}
+
+i.fa-solid {
+    display: block;
+    height: 40px;
+    width: 40px;
+    color: var(--secondary-color);
+    font-size: 22px;
+    transition: .3s;
+}
+
+
+i.fa-sun {
+    display: none;
+}
+i.fa-solid:hover {
+    color: gold;
+    cursor: pointer;
+}
+
+
+/* Wlasciwa struktura strony */
+
+.wrap {
+    padding: 2% 3%;
+    background-color: var(--primary-color);
+}
+
+h1,h2,h3, h4,p {
+    color: var(--secondary-color);
+}
+
+div.prolog {
+    margin-bottom: 50px;
+}
+
+h1 {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 35px;
+    border: 2px solid lightblue;
+    font-size: 36px;
+}
+
+a {
+    color: rgb(4, 218, 218);
+}
+
+a.reference {
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    background-color: rgb(96, 134, 146);
+    cursor: pointer;
+}
+
+a.reference:hover {
+    color: white;
+    background-color: transparent;
+}
+
+/* Struktura strony */
+
+section {
+    margin: auto;
+}
+
+div.content p{
+    text-align: left;
+}
+
+div.dreams {
+    margin-top: 50px;
+    text-align: left;
+}
+
+div.dreams p {
+    text-align: left;
+}
+
+
+
+hr {
+    margin-bottom: 20px;
+}
+
+hr.hatched {
+    border-top: 2px dotted var(--secondary-color);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3,h4 {
+    margin-bottom: 20px;
+}
+
+span.labirynt, span.stoker {
+    font-weight: bold;
+}
+
+span.labirynt:hover {
+    cursor: pointer;
+    color: rgb(23, 83, 136);
+}
+
+span.stoker:hover {
+    cursor: pointer;
+    color: rgb(65, 189, 75);
+}
+
+span.red {
+    background-color: red;
+}
+
+span.green {
+    background-color: green;
+}
+
+span.blue {
+    background-color: lightblue;
+}
+
+span.attention {
+    text-decoration: underline;
+}
+
+span.cite {
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(187, 161, 161);
+}
+
+.ego-cite {
+    width: 300px;
+}
+
+/* ważna rada  */
+
+div.important {
+    background-color: rgb(131, 172, 185);
+    width: 90vw;
+    margin: 20px auto;
+    padding: 10px 40px;
+    border-radius: 7px;
+    border: 1px solid greenyellow;
+    font-size: 20px;
+    font-family: tahoma;
+    color: white;
+    box-shadow: 0 0 3px 3px;
+}
+
+/* materiały dodatkowe  */
+
+aside.bonus {
+    margin-top: 50px;
+    background-color: var(--third-color);
+    padding-bottom: 15px;
+}
+
+aside.bonus h2 {
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+}
+
+div.buddhism iframe {
+    margin-right: 20px;
+}
+
+div.oobe {
+    margin-top: 30px;
+}
+
+p.buddhism, p.ld-oobe {
+    width: 85%;
+    margin: 0 auto;
+    color: white;
+    border-radius: 3px;
+}
+
+p.buddhism {
+    background-color: orange;
+    margin-bottom: 15px;
+}
+
+p.ld-oobe {
+    background-color: rgb(240, 187, 187);
+    margin-bottom: 15px;        
+}
+
+div.oobe-in-religions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: royalblue;
+    margin: 20px 0;
+    font-size: 0;
+    padding: 20px;
+}
+
+div.oobe-religion {
+    display: inline-block;
+    width: 25%;
+    padding: 5px;
+}
+
+div.oobe-religion p {
+    font-size: 14px;
+}
+
+div.oobe-religion h3 {
+    font-size: 26px;
+}
+
+/* stopka  */
+
+footer {
+    width: 10%;
+    margin: 5px 0 5px 83vw;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer p {
+    display: inline;
+    color: #fff;
+}
+
+/* wyskakujący element  */
+
+div.changes {
+    display: none;
+    z-index: 3;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60vw;
+    height: 50vh;
+    padding: 15px;
+    background-color: rgba(0,0,0,0.88);
+    backdrop-filter: blur(2px);
+    transition: .25s;
+}
+
+div.changes p, div.changes h3 {
+    color: white;
+}
+
+div.changes p {
+    margin-top: 20px;
+}
+
+div.changes h3 {
+    font-size: 26px;
+}
+
+div.changes div.close-x {
+    position: absolute;
+    top: 3%;
+    right: 1%;
+}
+
+div.close-x i.fa-solid {
+    color: red;
+    font-size: 24px;
+}
+
+div.close-x i.fa-solid:hover {
+    cursor: pointer;
+    color: white;
+}
+
+div.changes.active {
+    display: block;
+}
+
+
+
+/* Responsywność */
+
+@media(max-width: 400px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .tree-of-life {
+        height: 350px;
+    }
+
+    .ego-cite {
+    width: 200px;
+    }
+
+    div.important {
+        padding: 10px 20px;
+    }
+
+    aside h2 {
+        font-size: 24px;
+    }
+
+    div.buddhism iframe {
+        margin-right: 0;
+        height: 170px;
+    }
+
+    div.ld-oobe iframe {
+        width: 500px;
+        height: 170px;
+    }
+
+    aside iframe {
+        height: 150px;
+        width: 300px;
+        text-align: center;
+    }
+
+    /* oobe  */
+
+    div.oobe-in-religions {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: royalblue;
+        margin: 10px 0;
+        font-size: 0;
+        padding: 10px 5px;
+    }
+    
+    div.oobe-religion {
+        display: inline-block;
+        width: 46%;
+        padding: 5px;
+    }
+    
+    div.oobe-religion p {
+        font-size: 14px;
+    }
+    
+    div.oobe-religion h3 {
+        font-size: 26px;
+    }
+
+    footer {
+        width: 20%;
+        margin: 5px 0 5px 75vw;
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+}
