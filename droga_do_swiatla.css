@@ -13,11 +13,8 @@ body {
     position: relative;
     height: 100%;
     width: 100%;
-    /* height: 100vh; */
      overflow: hidden;
 }
-
-
 
 :root {
     --primary-color: white;
@@ -30,7 +27,6 @@ body {
     --secondary-color: #fff;
     --third-color: rgb(91, 121, 71);
 }
-
 
 /* scrollbar  */
 
@@ -79,13 +75,13 @@ i.fa-solid:hover {
 
 .curtain {
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     height: 100vh;
     z-index: 1;
     width: 100%;
     background-color: #fff;
-    justify-content: center;
-    align-items: center;
     overflow: hidden; 
 } 
 
