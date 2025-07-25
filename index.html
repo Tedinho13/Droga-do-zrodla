@@ -3,9 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="światło, Kabała, źródło, Labirynt Fauna, Stoker, święta geometria, dharma">
+    <meta name="keywords" content="światło, Kabała, źródło, Labirynt Fauna, Stoker, święta geometria, buddyzm, oświecenie, ego, LD, OOBE, medytacja, mistyka, religie, symbole, iluminaci">
     <!-- <meta name="color-scheme" content="light dark"> -->
     <link rel="shortcut icon" href="img/64tth.ico">
     <title>Droga do światła</title>
@@ -17,9 +16,10 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
     <link rel="stylesheet" href="droga_do_swiatla.css">
     <link rel="stylesheet" href="lightbox.min.css">
+
+    <script defer src="droga_do_swiatla.js"></script>
 
     <script async src="lightbox-plus-jquery.min.js"></script>
 
@@ -33,6 +33,7 @@
         <div class="form">
             <h2>Wprowadź hasło by odblokować</h2>
             <input type="text" placeholder="Wpisz hasło">
+            <p class="message"></p>
         </div>
     </div>
 
@@ -43,7 +44,7 @@
             <i title="tryb jasny" class="fa-solid fa-sun"></i>
         </div>
 
-        <h1>Czy celem elit jest oświecenie ludzkości?</h1>
+        <h1 class="title">Czy celem elit jest oświecenie ludzkości?</h1>
 
         <section>
 
@@ -55,6 +56,9 @@
                     <li><a href="#religions" class="religions">Religie</a></li>
                 </ul>
             </nav>
+
+            <!-- Zawartość strony -->
+
             <div class="content">
                 <div class="prolog">
                     <p> To co za chwilę przeczytasz będzie odbiegać od Twojej wizji świata, dlatego przed lekturą proszę
@@ -201,7 +205,6 @@
                         światłem i Bogiem), a żeby do niego dotrzeć należy pozbyć się ego. </p>
 
 
-
                     <a data-lightbox="mygallery" data-title="Talerze w Stokerze ułożone w nawiązaniu do Drzewa Życia"
                         href="https://i.ibb.co/r5L67sr/talerze-w-Stokerze.png"><img
                             src="https://i.ibb.co/r5L67sr/talerze-w-Stokerze.png" alt="talerze w stokerze"></a>
@@ -243,11 +246,6 @@
                         ucząc się na błędach.
                     </p>
 
-                    <p></p>
-
-                    <p></p>
-
-
                     <br><br>
                     <hr class="hatched">
 
@@ -263,7 +261,7 @@
                     <p> Muszle to najsłynniejszy przykład tej zasady. </p>
                     <br>
 
-                    <a data-lightbox="mygallery" href="https://i.ibb.co/VWH7t1b/muszla-ciag-fibonacciego.jpg"><img
+                    <a data-lightbox="mygallery" data-title="Przykład ciągu Fibonnaciego na muszli" href="https://i.ibb.co/VWH7t1b/muszla-ciag-fibonacciego.jpg"><img
                             src="https://i.ibb.co/VWH7t1b/muszla-ciag-fibonacciego.jpg"
                             alt="muszla-ciag-fibonacciego"></a>
                     <br>
@@ -281,7 +279,6 @@
                         pięciokąt</p>
 
                     <p>W Stokerze jest dużo symboli geometrycznych</p>
-
 
                     <br>
 
@@ -338,11 +335,11 @@
                     <p>W buddyzmie <span class="cite"> "pustka jest radością"</span>, buddyzm uczy poskramiania ego.
                     </p>
 
-                    <a data-lightbox="mygallery"
+                    <a data-lightbox="mygallery" data-title="Kiedy ego umiera, dusza się budzi"
                         href="https://i.ibb.co/MN5ZSXj/kiedy-ego-umiera-dusza-sie-budzi.jpg"><img class="ego-cite"
                             src="https://i.ibb.co/MN5ZSXj/kiedy-ego-umiera-dusza-sie-budzi.jpg"
                             alt="kiedy-ego-umiera-dusza-sie-budzi"></a>
-                    <a data-lightbox="mygallery" href="https://i.ibb.co/k04dcvM/ego-nigdy-nie-akceptuje-prawdy.jpg"><img
+                    <a data-lightbox="mygallery" data-title="Ego nigdy nie akceptuje prawdy" href="https://i.ibb.co/k04dcvM/ego-nigdy-nie-akceptuje-prawdy.jpg"><img
                             class="ego-cite" src="https://i.ibb.co/k04dcvM/ego-nigdy-nie-akceptuje-prawdy.jpg"
                             alt="ego-nigdy-nie-akceptuje-prawdy"></a>
 
@@ -437,8 +434,8 @@
                             nadmierne przywiązanie do otaczającej nas materii - która jest tylko iluzją i ułudą.
                             Doświadczenia podczas OOBE są bliższe prawdziwej rzeczywistości.</p>
 
-                        Tak swoją drogą - to według wielu fizyków kwantowych, oraz buddystów wychodzimy z ciała każdej
-                        nocy nie będąc tego świadomymi.
+                        <p>Tak swoją drogą - to według wielu fizyków kwantowych, oraz buddystów wychodzimy z ciała każdej
+                        nocy nie będąc tego świadomymi.</p>
 
                         <p>Wielu przeciętnych ludzi, którzy pierwszy raz słyszą o tym zjawisku, lub nie wgłębiali się w
                             nie zbytnio i są przesiąknięci wpływem naszej rodzimej religii uważa, że wyjście z ciała
@@ -641,7 +638,6 @@
                             najważniejsze, licząc wszelkie odmiany na planecie jest teraz ok. 4300 religii, a w
                             przeszłości było jeszcze tysiąc, które obecnie są martwe).
 
-
                             <p>Tu można spędzić kilka wcieleń analizując wszystko co znajduje się powyżej grubej krechy
                                 12,500 BCE. Błąd, który popełnia większość ludzi w drodze do prawdy (sam go
                                 popełniałem), to skupianie się na obrzędach - tą drogą też dojdziesz do źródła, ale
@@ -675,7 +671,7 @@
                     <p>Wszystko zależy od tego w którym kierunku podążamy, a w zgodzie z filozofią o której rozprawiamy
                         źródłem prawdy, mądrości i światła jest tak zwana korona (czym ona tak naprawdę jest dowiesz się
                         później, jednakże w życiu można obrać zazwyczaj dwa kierunki). </p>
-                    <p>"Do wnętrza" i "na zewnątrz"</p>
+                    <p>"Do wnętrza" i "na zewnątrz".</p>
                     <p>Posłużę się przykładem z życia.Jak człowieka spotyka trauma może wybrać dwa rozwiązania:</p>
                     <p>Zagłębić się w źródło traumy i swoją osobę. Zmierzyć z cierpieniem i rozwiązać problem. To jest
                         droga do wnętrza</p>
@@ -692,14 +688,13 @@
 
                     <p>Matka Indii jest przykładem osoby, która po traumie jaka ją spotkała (stracie męża) wybrała
                         ucieczkę w świat zewnętrzny, która jak już mówiłem oddala nas od źródła mądrości i może znacznie
-                        opóźnić nasz rozwój (jeśli w porę nie wyciągniemy wniosków)</p>
-                    <p>Jak spojrzysz na społeczeństwo i ludzi wokół - tak właśnie postępuje większość ludzi</p>
+                        opóźnić nasz rozwój (jeśli w porę nie wyciągniemy wniosków).</p>
+                    <p>Jak spojrzysz na społeczeństwo i ludzi wokół - tak właśnie postępuje większość ludzi.</p>
 
                     <p>Najniższe poziomy drzewa życia to właśnie stany ego, na których żyje większość ludzi, celem
                         naszego inkarnowania na tej planecie jest dojście do korony i osiągniecie doskonałości, poprzez
-                        ciągły niczym nie ograniczony rozwój</p>
+                        ciągły niczym nie ograniczony rozwój.</p>
                 </div>
-
             </div>
 
             <aside class="bonus">
@@ -709,15 +704,15 @@
                     <div class="buddhism">
                         <p class="buddhism">Buddyzm</p>
 
-                        <iframe width="500" height="300" src="https://www.youtube.com/embed/Whjg3njYpLA"
+                        <iframe  src="https://www.youtube.com/embed/Whjg3njYpLA"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
-                        <iframe width="500" height="300" src="https://www.youtube.com/embed/Oh9-ZUSVv3A"
+                        <iframe src="https://www.youtube.com/embed/Oh9-ZUSVv3A"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
-                        <iframe width="500" height="300" src="https://www.youtube.com/embed/u5viyAZFUiE"
+                        <iframe src="https://www.youtube.com/embed/u5viyAZFUiE"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
@@ -727,7 +722,7 @@
                     <div class="oobe">
                         <p class="ld-oobe">LD i OOBE</p>
 
-                        <iframe width="500" height="300" src="https://www.youtube.com/embed/YQjAIlFZWWc"
+                        <iframe src="https://www.youtube.com/embed/YQjAIlFZWWc"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
@@ -736,7 +731,7 @@
                     <div class="church-materials">
                         <p class="church">Kościół</p>
 
-                        <iframe width="500" height="300" src="https://www.youtube.com/embed/I_ys4p9zkkg"
+                        <iframe src="https://www.youtube.com/embed/I_ys4p9zkkg"
                             title="Diabły w Watykanie [część 1] | W mroku historii #15" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
@@ -766,19 +761,26 @@
         </section>
 
 
-
         <!-- footer  -->
 
         <footer>
-            <p>alpha 0.5.1</p>
+            <p>alpha 0.6</p>
         </footer>
 
-        <div class="changes">
+        <div class="changelog">
             <div class="close-x">
                 <i class="fa-solid fa-xmark"></i>
             </div>
 
             <h3>Zmiany:</h3>
+            <h5>0.6 <span>25.07.2025</span></h5>
+            <p>pełna responsywność</p>
+            <p>korekta wyglądu</p>
+            <p>czytelniejsza struktura kodu</p>
+            <p>przyspieszono czas wczytywania strony</p>
+            <p>optymalizacja kodu</p>
+            <p>usunięcie jednego zbędnego pliku</p>
+            <p>naprawa wielu błędów</p>
             <h5>0.5.1</h5>
             <p>Poprawki błędów</p>
             <p>drobna optymalizacja kodu</p>
@@ -799,6 +801,7 @@
             <p>Poprawa błędów</p>
             <br>
             <h5>0.3</h5>
+            <p>dodanie changeloga</p>
             <p>dodanie trybu ciemnego</p>
             <p>poprawa wyglądu cytatów i linków</p>
             <p>naprawa błędów</p>
@@ -810,10 +813,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <script src="droga_do_swiatla.js"></script>
-
 </body>
 
-<!-- v0.5.1 -->
+<!-- v0.6 -->
 
 </html>

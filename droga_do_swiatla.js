@@ -4,7 +4,7 @@ const body = document.querySelector("body");
 const footer = document.querySelector("footer");
 
 const divSwitch = document.querySelector("div.switch");
-const divChanges = document.querySelector("div.changes");
+const divChanges = document.querySelector("div.changelog");
 const divCloseX = document.querySelector("div.close-x i.fa-solid");
 
 const moon = document.querySelector("i.fa-moon");
@@ -12,6 +12,7 @@ const sun = document.querySelector("i.fa-sun");
 
 const curtain = document.querySelector(".curtain");
 const curtainInput = document.querySelector(".form input");
+const curtainMessage = document.querySelector(".form p");
 const scrollBar = document.querySelector("::-webkit-scrollbar");
 
 const asideBonus = document.querySelector("aside.bonus");
@@ -31,6 +32,10 @@ function hideCurtain(e) {
         body.style.overflow = "auto";
         body.style.height = "100%";
         document.body.style.scrollTop = "0px"
+    }
+
+    else {
+        curtainMessage.textContent = "Błędne hasło! Spróbuj ponownie.";
     }
 
 }
@@ -76,8 +81,13 @@ asideBonusEye.addEventListener("click", toggleBonusAside);
 //jQuery
 
 $("nav.menu li a").on("click", function() {
+
     const goToElement = "#" + $(this).attr("class");
+
+    console.log(goToElement);
+    
+
     $("body, html").animate({
         scrollTop: $(goToElement).offset().top
-    })
+    }, 500)
 })
